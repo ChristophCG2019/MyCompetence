@@ -1,0 +1,24 @@
+{
+  "name": "mycompetence-webapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "MyCompetence Team",
+  "private": false,
+  "scripts": {
+    "build": "netlify-lambda build src",
+    "ts-check": "tsc --noEmit --lib ES2015 ./src/*.ts"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@types/aws-lambda": "^8.10.66",
+    "netlify-lambda": "^2.0.2",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  }
+}
