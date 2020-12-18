@@ -10,6 +10,10 @@ MyCompetence Project
 * Install the dependencies ``npm install``
 * Run the application ``ng serve --open``
 
+Angular docs: https://angular.io/docs
+
+Angular Material: https://material.angular.io/
+
 ### Run mycompetence-webapi 
 
 * Install NodeJs ``https://nodejs.org/en/``
@@ -19,3 +23,5 @@ MyCompetence Project
 * Run the application ``netlify dev``
 
 ``GET http://localhost:8888/api/person``
+
+AWS Lambda Functions: https://docs.aws.amazon.com/lambda/latest/dg/nodejs-handler.html
