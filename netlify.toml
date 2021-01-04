@@ -1,6 +1,6 @@
 [build]
   command = "cd mycompetence-webapi && npm install && npm run build"
-  functions = "webapi/lambda"
+  functions = "mycompetence-webapi/lambda"
 
 [[redirects]]
   from = "/api/*"
