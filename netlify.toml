@@ -1,6 +1,7 @@
 [build]
-  command = "cd mycompetence-webapi && npm install && npm run build"
-  functions = "mycompetence-webapi/lambda"
+  command = "cd mycompetence-webapi && npm install && npm run build && cd .. && cd mycompetence-frontend && npm install && ng build --prod"
+  functions = "mycompetence-webapi/lambda" # Serverless Functions
+  publish = "mycompetence-frontend/dist"   # Angular Client
 
 [[redirects]]
   from = "/api/*"
