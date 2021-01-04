@@ -1,0 +1,8 @@
+[build]
+  command = "cd mycompetence-webapi && npm install && npm run build"
+  functions = "webapi/lambda"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
