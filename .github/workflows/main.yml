@@ -35,6 +35,7 @@ jobs:
 
       - name: Install
         run: |
+          echo "export const DATABASE_SECRET = \"PLACEHOLDER"" > src/environment.ts 
           npm install netlify-cli -g
           npm install
       
