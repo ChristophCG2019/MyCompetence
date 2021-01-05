@@ -3,3 +3,4 @@
 node_modules
 .netlify
 lambda
+src/environment.ts
