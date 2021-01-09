@@ -12,8 +12,8 @@ export class ProfileService {
   }
 
   async getProfileById(id: string): Promise<Profile> {
-    let person = await this.httpclient.get("baseurl/api/profile/" + id).toPromise()
+    let profile = await this.httpclient.get("baseurl/api/profile/" + id).toPromise() as Profile
 
-    return person
+    return profile
   }
 }
