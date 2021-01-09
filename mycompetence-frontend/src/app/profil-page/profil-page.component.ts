@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Person} from "../../../../mycompetence-webapi/src/entity/person.entity";
-import {PersonService} from "../service/person.service";
+import {Profile} from "../../../../mycompetence-webapi/src/entity/profile.entity";
+import {ProfileService} from "../service/profile.service";
 
 @Component({
   selector: 'app-profil-page',
@@ -9,17 +9,17 @@ import {PersonService} from "../service/person.service";
 })
 export class ProfilPageComponent implements OnInit {
 
-  person : Person
+  profile : Profile
 
 
-  constructor(private personService : PersonService) {
-    this.person = new Person()
-    this.person.firstName = "Init"
+  constructor(private profileService : ProfileService) {
+    this.profile = new Profile()
+    this.profile.firstName = "Init"
   }
 
   async ngOnInit(): Promise<void> {
-    let tmp = await this.personService.getPersonById("blabla")
+    let tmp = await this.profileService.getProfileById("blabla")
     console.log("Result: " + tmp)
-    this.person = tmp
+    this.profile = tmp
   }
 }
