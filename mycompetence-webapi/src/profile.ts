@@ -1,6 +1,7 @@
 import {APIGatewayEvent, Context} from 'aws-lambda'
 import {Profile} from "./entity/profile.entity";
 import {DatabaseService} from "./impl/database.service";
+import { ProfilesPage } from './impl/profilesPage';
 
 // @ts-ignore
 exports.handler = async function (event: APIGatewayEvent, context: Context) {
@@ -58,26 +59,30 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
         default:
             // GET http://localhost:8888/api/profile
             let id = event.path.substr("/api/profile/".length)
-            if (id.length < 18) {
-                console.log("expected id '" + id + "' to be 18 characters long")
-                return {
-                    statusCode: 404,
-                    body: JSON.stringify({ msg: "id '" + id + "' not found" })
-                };
-            }
+            if (id.length == 0) {
+                // get all profiles
+                let cursor = event.body == null ? null : JSON.parse(event.body).id
+                let res = await databaseService.getPageUnfiltered(cursor) as ProfilesPage
 
-            let res = await databaseService.getById('users', id)
-            // @ts-ignore
-            if (null != res.name && res.name === 'NotFound') {
-                return {
-                    statusCode: 404,
-                    body: JSON.stringify({msg: "item with id '" + id + "' not found."})
-                }
-    
-            } else {
                 return {
                     statusCode: 200,
                     body: JSON.stringify(res)
+                };
+
+            } else {
+                let res = await databaseService.getById('users', id)
+                // @ts-ignore
+                if (null != res.name && res.name === 'NotFound') {
+                    return {
+                        statusCode: 404,
+                        body: JSON.stringify({msg: "item with id '" + id + "' not found."})
+                    }
+        
+                } else {
+                    return {
+                        statusCode: 200,
+                        body: JSON.stringify(res)
+                    }
                 }
             }
 

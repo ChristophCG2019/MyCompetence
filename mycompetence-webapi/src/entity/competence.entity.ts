@@ -1,8 +1,6 @@
-import {Identifyable} from "./identifyable.entity";
 import {Approval} from "./approval.entity";
 
-export class Competence implements Identifyable {
-    id: string
+export class Competence {
     name: string
     isPublic: boolean
     description: string
@@ -14,9 +12,9 @@ export class Competence implements Identifyable {
             if (chk.userId === userId) {
                 // @ts-ignore
                 chk.date = Date.now()
-                
+
             } else {
-                var a = new Approval()
+                let a = new Approval()
                 a.userId = userId
                 // @ts-ignore
                 a.date = Date.now()
