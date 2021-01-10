@@ -9,5 +9,8 @@ export class Profile implements Identifyable {
     image: string
     description: string
     competences: Competence[]
-    coordinates: { lat: number, lon: number};
+    coordinates: { lat: number, lon: number}
+    
+    /** fake number to allow sorting of search */
+    distance: number
 }
