@@ -18,8 +18,8 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
         }
         let sp = JSON.parse(event.body) as SearchParameters
         let page = new ProfilesPage()
-        if (null != sp.name) {
-            page = await databaseService.getPageForName(sp.name, sp.cursor)
+        if (null != sp.username) {
+            page = await databaseService.getPageForName(sp.username, sp.cursor)
 
         } else if (null != sp.competence) {
             page = await databaseService.getPageForCompetence(sp.competence, sp.cursor)
@@ -34,12 +34,13 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
         /*
         // use POST method to start administrative tasks
         if (event.httpMethod === "POST") {
-            //let res = await databaseService.createSearchForLastnameIndex()
+            //let res = await databaseService.createSearchForUsernameIndex()
+            //let res = await databaseService.deleteIndex("users_search_by_username")
 
             //let res = await databaseService.createSearchForCompetenceIndex()
             //let res = await databaseService.deleteIndex("users_search_by_competence")
 
-            let res = await databaseService.createSortForApprovalIndex()
+            //let res = await databaseService.createSortForApprovalIndex()
             //let res = await databaseService.deleteIndex("users_sort_by_approval_desc")
 
             return {

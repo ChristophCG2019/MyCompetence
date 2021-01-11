@@ -68,7 +68,7 @@ export class DatabaseService {
         let result = await this.client.query(
             q.Map(
                 q.Paginate(
-                    q.Match(q.Index("users_search_by_last"), name),
+                    q.Match(q.Index("users_search_by_username"), name),
                     paging
                 ),
                 q.Lambda(x => q.Get(x))
@@ -227,13 +227,13 @@ export class DatabaseService {
 
     /** helper functions to setup db */
 
-    public async createSearchForLastnameIndex(): Promise<any> {
+    public async createSearchForUsernameIndex(): Promise<any> {
         return this.client.query(
             q.CreateIndex({
-                name: "users_search_by_last",
+                name: "users_search_by_username",
                 source: q.Collection("users"),
                 terms: [
-                    { field: ["data", "lastName"] }
+                    { field: ["data", "userName"] }
                 ]
             })
 
