@@ -51,8 +51,8 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
     
             } else {
                 return {
-                    statusCode: 204,
-                    body: JSON.stringify(delItem)
+                    statusCode: 204
+                    // no content
                 }
             }
 

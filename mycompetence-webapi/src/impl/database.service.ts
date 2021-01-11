@@ -68,10 +68,13 @@ export class DatabaseService {
         let result = await this.client.query(
             q.Map(
                 q.Paginate(
-                    q.Match(q.Index("users_search_by_username"), name),
+                    q.Join(
+                        q.Match(q.Index("users_search_by_username"), name),
+                        q.Index("users_sort_by_distance_asc")
+                    ),
                     paging
                 ),
-                q.Lambda(x => q.Get(x))
+                q.Lambda((user, ref) => q.Get(ref))
             )
         )
 
@@ -110,11 +113,11 @@ export class DatabaseService {
                 q.Paginate(
                     q.Join(
                         q.Match(q.Index("users_search_by_competence"), competence),
-                        q.Index("users_sort_by_approval_desc")
+                        q.Index("users_sort_by_approval_desc_and_distance_asc")
                     ),
                     paging
                 ),
-                q.Lambda((user, ref) => q.Get(ref))
+                q.Lambda((x, y, ref) => q.Get(ref))
             )
         )
         console.log(result)
@@ -196,6 +199,8 @@ export class DatabaseService {
         ).then((res) => {
             console.log("UPDATED: " + res)
             // @ts-ignore
+            res.data.id = res.ref.id
+            // @ts-ignore
             return res.data as T
 
         }).catch((err) => {
@@ -214,10 +219,12 @@ export class DatabaseService {
             q.Delete(
                 q.Ref(q.Collection(collection), id)
             )
-        ).then((ret) => {
-            console.log(ret)
+        ).then((res) => {
+            console.log(res)
             // @ts-ignore
-            return ret.data
+            res.data.id = res.ref.id
+            // @ts-ignore
+            return res.data as T
 
         }).catch((err) => {
             console.log(err)
@@ -265,16 +272,40 @@ export class DatabaseService {
         })
     }
 
-    public async createSortForApprovalIndex(): Promise<any> {
+    public async createSortForApprovalAndDistanceIndex(): Promise<any> {
         return this.client.query(
             q.CreateIndex({
-                name: "users_sort_by_approval_desc",
+                name: "users_sort_by_approval_desc_and_distance_asc",
                 source: q.Collection("users"),
                 terms: [
                     { field: ["ref"] }
                 ],
                 values: [
                     { field: ["data", "competences", "countApproved"], reverse: true },
+                    { field: ["data", "distance"] },
+                    { field: ["ref"] }
+                ]
+            })
+
+        ).then((ret) => {
+            console.log(ret)
+            return ret
+        }).catch((err) => {
+            console.log(err)
+            return err
+        })
+    }
+
+    public async createSortForDistanceIndex(): Promise<any> {
+        return this.client.query(
+            q.CreateIndex({
+                name: "users_sort_by_distance_asc",
+                source: q.Collection("users"),
+                terms: [
+                    { field: ["ref"] }
+                ],
+                values: [
+                    { field: ["data", "distance"]},
                     { field: ["ref"] }
                 ]
             })

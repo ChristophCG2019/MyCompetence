@@ -40,8 +40,11 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
             //let res = await databaseService.createSearchForCompetenceIndex()
             //let res = await databaseService.deleteIndex("users_search_by_competence")
 
-            //let res = await databaseService.createSortForApprovalIndex()
-            //let res = await databaseService.deleteIndex("users_sort_by_approval_desc")
+            //let res = await databaseService.createSortForApprovalAndDistanceIndex()
+            //let res = await databaseService.deleteIndex("users_sort_by_approval_desc_and_distance_asc")
+
+            //let res = await databaseService.createSortForDistanceIndex()
+            //let res = await databaseService.deleteIndex("users_sort_by_distance_asc")
 
             return {
                 statusCode: 200,
