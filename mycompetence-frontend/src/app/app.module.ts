@@ -8,13 +8,15 @@ import { ProfilPageComponent } from './profil-page/profil-page.component';
 import {HttpClientModule} from "@angular/common/http";
 import { ImpressumComponent } from './impressum/impressum.component';
 import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfilPageComponent,
     ImpressumComponent,
-    PrivacyPoliceComponent
+    PrivacyPoliceComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
