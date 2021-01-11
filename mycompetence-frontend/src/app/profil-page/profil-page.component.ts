@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Profile} from "../../../../mycompetence-webapi/src/entity/profile.entity";
-import {ProfileService} from "../service/profile.service";
+import {Profile} from '../../../../mycompetence-webapi/src/entity/profile.entity';
+import {ProfileService} from '../service/profile.service';
 
 @Component({
   selector: 'app-profil-page',
@@ -9,17 +9,16 @@ import {ProfileService} from "../service/profile.service";
 })
 export class ProfilPageComponent implements OnInit {
 
-  profile : Profile
+  profile: Profile;
 
 
-  constructor(private profileService : ProfileService) {
-    this.profile = new Profile()
-    this.profile.firstName = "Init"
+  constructor(private profileService: ProfileService) {
+    this.profile = new Profile();
   }
 
   async ngOnInit(): Promise<void> {
-    let tmp = await this.profileService.getProfileById("blabla")
-    console.log("Result: " + tmp)
-    this.profile = tmp
+    const tmp = await this.profileService.getProfileById('blabla');
+    console.log('Result: ' + tmp);
+    this.profile = tmp;
   }
 }

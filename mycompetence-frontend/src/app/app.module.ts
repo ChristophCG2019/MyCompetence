@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProfilPageComponent } from './profil-page/profil-page.component';
 import {HttpClientModule} from "@angular/common/http";
+import { ImpressumComponent } from './impressum/impressum.component';
+import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfilPageComponent
+    ProfilPageComponent,
+    ImpressumComponent,
+    PrivacyPoliceComponent
   ],
   imports: [
     BrowserModule,
