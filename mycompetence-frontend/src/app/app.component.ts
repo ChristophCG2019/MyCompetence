@@ -7,10 +7,12 @@ import {Component, OnInit} from '@angular/core';
 })
 export class AppComponent implements OnInit{
   loggedIn: boolean;
+  UserName: string;
 
   title = 'mycompetence';
 
   ngOnInit(): void {
-    this.loggedIn = false;
+    this.loggedIn = true;
+    this.UserName = 'TESTDODL';
   }
 }

@@ -323,6 +323,10 @@ footer {
   top: 48.00px;
 }
 
+.logOutText{
+  right: 145px;
+}
+
 .inputLoginUserNameText{
   position: absolute;
   box-sizing: border-box;
@@ -378,59 +382,8 @@ footer {
   color: rgba(255, 255, 255, 1);
 }
 
-.inputLoginPasswordText::placeholder{
-   color: rgba(255, 255, 255, 1);
- }
-
 .inputLoginPasswordText{
-  position: absolute;
-  box-sizing: border-box;
-  -ms-transform: rotate(0.00deg);
-  -webkit-transform: rotate(0.00deg);
-  transform: rotate(0.00deg);
-  -ms-transform-origin: center;
-  -webkit-transform-origin: center;
-  transform-origin: center;
-  opacity: 1;
-  margin-top: 0.00px;
-  margin-right: 0.00px;
-  margin-bottom: 0.00px;
-  margin-left: 0.00px;
-  padding-top: 0.00px;
-  padding-right: 0.00px;
-  padding-bottom: 0.00px;
-  padding-left: 10.00px;
-  text-align: left;
-  letter-spacing: 0.00px;
-  color: rgba(255, 255, 255, 1);
-  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
-  font-size: 22.00px;
-  font-weight: 400;
-  font-style: normal;
-  font-family: Arial;
-  text-decoration: none;
-  background-color: rgba(152, 152, 152, 0.7058823529411765);
-  border-bottom-color: rgba(112, 112, 112, 1);
-  border-bottom-style: solid;
-  border-bottom-width: 1.00px;
-  border-left-color: rgba(112, 112, 112, 1);
-  border-left-style: solid;
-  border-left-width: 1.00px;
-  border-right-color: rgba(112, 112, 112, 1);
-  border-right-style: solid;
-  border-right-width: 1.00px;
-  border-top-color: rgba(112, 112, 112, 1);
-  border-top-style: solid;
-  border-top-width: 1.00px;
-  border-top-left-radius: 19.00px;
-  border-top-right-radius: 19.00px;
-  border-bottom-left-radius: 19.00px;
-  border-bottom-right-radius: 19.00px;
-  box-shadow: none;
-  width: 220.00px;
-  height: 47.00px;
   right: 150.00px;
-  top: 34.00px;
 }
 
 .iconOpenAccountLogin{
@@ -455,6 +408,17 @@ footer {
   filter: drop-shadow(0px 3px 6px rgba(255, 255, 255, 0));
   width: 26.33px;
   height: 23.04px;
+}
+
+.buttonEditProfile{
+  background-color: rgba(67, 67, 67, 1) !important;
+  fill: rgba(255, 255, 255, 1);
+  box-shadow: none !important;
+  border: none !important;
+  top: 42px !important;
+  width: 34.17px !important;
+  height: 30.36px !important;
+  right: 235px !important;
 }
 
 .buttonIconOpenAccountLogin{
@@ -495,6 +459,54 @@ footer {
   box-shadow: none;
   width: 58.00px;
   height: 47.00px;
-  left: 1812.00px;
+  right: 50.00px;
   top: 34.00px;
+}
+
+.iconAwesomeEdit {
+  cursor: default;
+  fill: rgba(255, 255, 255, 1);
+  box-shadow: none;
+  width: 34.17px;
+  height: 30.36px;
+}
+
+.showUserName{
+
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  margin-top: 0.00px;
+  margin-right: 0.00px;
+  margin-bottom: 0.00px;
+  margin-left: 0.00px;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 22.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 155.00px;
+  height: 25.00px;
+  right: 250.00px;
+  top: 50.00px;
 }
