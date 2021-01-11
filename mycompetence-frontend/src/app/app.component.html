@@ -2,6 +2,21 @@
 <nav>
   <div class="navDiv">
     <div class="logo"></div>
+    <div class="myCompetence">MyCompetence</div>
+    <div class="flag">🇬🇧</div>
+    <div *ngIf="loggedIn">
+
+    </div>
+    <div *ngIf="!loggedIn">
+      <div class="logInText">Login: </div>
+      <input type="text" class="inputLoginUserNameText" placeholder="Username">
+      <input type="password" class="inputLoginPasswordText" placeholder="Password">
+      <button class="buttonIconOpenAccountLogin">
+        <svg preserveAspectRatio="none" viewBox="0 0 26.3299560546875 23.038711547851562" class="iconOpenAccountLogin">
+          <path d="M 9.873733520507812 0 L 9.873733520507812 3.291244506835938 L 23.03871154785156 3.291244506835938 L 23.03871154785156 19.74746704101562 L 9.873733520507812 19.74746704101562 L 9.873733520507812 23.03871154785156 L 26.3299560546875 23.03871154785156 L 26.3299560546875 0 L 9.873733520507812 0 Z M 13.16497802734375 6.582489013671875 L 13.16497802734375 9.873733520507812 L 0 9.873733520507812 L 0 13.16497802734375 L 13.16497802734375 13.16497802734375 L 13.16497802734375 16.45622253417969 L 19.74746704101562 11.51935577392578 L 13.16497802734375 6.582489013671875 Z">
+          </path></svg>
+      </button>
+    </div>
   </div>
 </nav>
 <router-outlet></router-outlet>
