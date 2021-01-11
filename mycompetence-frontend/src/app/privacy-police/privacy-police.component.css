@@ -1,0 +1,60 @@
+.divPrivacyPolice{
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform: rotate(0.00deg);
+  -webkit-transform: rotate(0.00deg);
+  transform: rotate(0.00deg);
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  padding-top: 0.00px;
+  padding-right: 0.00px;
+  padding-bottom: 0.00px;
+  padding-left: 0.00px;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0.00px;
+  color: rgba(0, 0, 0, 1);
+  -webkit-text-stroke: 1.00px rgba(0, 0, 0, 0);
+  font-size: 30.00px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: Arial;
+  text-decoration: none;
+  box-shadow: none;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 1394.00px;
+  height: 754.00px;
+  left: 0.00px;
+  top: 0.00px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+.privacyPoliceHead{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40.00px;
+  font-family: Arial;
+  line-height: 44px;
+  display: block;
+  text-decoration: none;
+}
+
+.privacyExplanation{
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30.00px;
+  line-height: 34px;
+  font-family: Arial;
+  display: block;
+  text-decoration: none;
+}
+
+
