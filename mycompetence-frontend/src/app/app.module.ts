@@ -9,6 +9,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { ImpressumComponent } from './impressum/impressum.component';
 import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
 import { HomeComponent } from './home/home.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HomeComponent } from './home/home.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

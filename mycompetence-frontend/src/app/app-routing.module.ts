@@ -8,6 +8,7 @@ import {ProfilPageComponent} from './profil-page/profil-page.component';
 // TODO: Add routes to all pages
 const routes: Routes = [
   {path: '', component: HomeComponent},
+  {path: 'home', component: HomeComponent},
   {path: 'impressum', component: ImpressumComponent},
   {path: 'privacyPolice', component: PrivacyPoliceComponent},
   {path: 'profile/:id', component: ProfilPageComponent}

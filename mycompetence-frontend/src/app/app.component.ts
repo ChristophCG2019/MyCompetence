@@ -8,11 +8,24 @@ import {Component, OnInit} from '@angular/core';
 export class AppComponent implements OnInit{
   loggedIn: boolean;
   UserName: string;
+  Password: string;
 
   title = 'mycompetence';
 
   ngOnInit(): void {
+    this.UserName = '';
+    this.Password = '';
+  }
+
+  logOut(): void {
+    console.log(this.UserName);
+    this.loggedIn = false;
+    this.UserName = '';
+    this.Password = '';
+  }
+
+  logIn(): void{
     this.loggedIn = true;
-    this.UserName = 'TESTDODL';
+    console.log(this.UserName);
   }
 }
