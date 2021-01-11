@@ -1,3 +1,8 @@
 # This file is needed for the build process. It does not really do anything.
 [build]
   functions = "lambda"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
