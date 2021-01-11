@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {ProfilPageComponent} from "./profil-page/profil-page.component";
+import {ImpressumComponent} from './impressum/impressum.component';
+import {PrivacyPoliceComponent} from './privacy-police/privacy-police.component';
+import {ProfilPageComponent} from './profil-page/profil-page.component';
 
 // TODO: Add routes to all pages
 const routes: Routes = [
   {path: '', component: ProfilPageComponent},
+  {path: 'impressum', component: ImpressumComponent},
+  {path: 'privacyPolice', component: PrivacyPoliceComponent},
   {path: 'profile/:id', component: ProfilPageComponent}
 ];
 
