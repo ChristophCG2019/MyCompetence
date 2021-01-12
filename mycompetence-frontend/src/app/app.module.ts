@@ -10,6 +10,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
 import { HomeComponent } from './home/home.component';
 import {FormsModule} from '@angular/forms';
+import { HomeRegistrationComponent } from './home/home-registration/home-registration.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import {FormsModule} from '@angular/forms';
     ProfilPageComponent,
     ImpressumComponent,
     PrivacyPoliceComponent,
-    HomeComponent
+    HomeComponent,
+    HomeRegistrationComponent
   ],
   imports: [
     BrowserModule,
