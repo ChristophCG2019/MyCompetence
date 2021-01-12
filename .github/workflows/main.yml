@@ -27,7 +27,7 @@ jobs:
       - name: Build
         run: |
           cd ./mycompetence-frontend
-          npm run build 
+          npm run publish 
           cd ..
           cd ./mycompetence-webapi
           npm run build 
