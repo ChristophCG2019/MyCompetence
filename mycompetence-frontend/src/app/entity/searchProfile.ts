@@ -2,7 +2,7 @@ import {SearchCompetence} from "./searchCompetence";
 
 export class SearchProfile {
   id: string
-  username: string
+  userName: string
   firstName: string
   lastName: string
   description: string

@@ -15,6 +15,9 @@ import { SearchComponent } from './search/search.component';
 import {MatProgressBarModule} from "@angular/material/progress-bar";
 import {MatProgressSpinnerModule, MatSpinner} from "@angular/material/progress-spinner";
 import {MatGridListModule} from "@angular/material/grid-list";
+import {MatCardModule} from "@angular/material/card";
+import {MatListModule} from "@angular/material/list";
+import {MatIcon, MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -24,7 +27,7 @@ import {MatGridListModule} from "@angular/material/grid-list";
     PrivacyPoliceComponent,
     HomeComponent,
     HomeRegistrationComponent,
-    SearchComponent
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -35,7 +38,10 @@ import {MatGridListModule} from "@angular/material/grid-list";
     ReactiveFormsModule,
     MatProgressBarModule,
     MatProgressSpinnerModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

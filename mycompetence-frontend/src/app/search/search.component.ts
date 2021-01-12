@@ -15,6 +15,8 @@ export class SearchComponent implements OnInit {
 
   @Output()
   searchResultEmitter = new EventEmitter<SearchProfile[]>();
+  @Output()
+  searchStartEmitter = new EventEmitter<void>()
 
   constructor(private profileService: ProfileService) {
   }
@@ -24,6 +26,7 @@ export class SearchComponent implements OnInit {
 
   async search(query: string) {
     this.spinnerVisible = true
+    this.searchStartEmitter.emit(null)
     this.searchResults = await this.profileService.searchForProfiles(query)
     this.searchResultEmitter.emit(this.searchResults)
     this.spinnerVisible = false
