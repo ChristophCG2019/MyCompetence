@@ -1,0 +1,7 @@
+<div >
+  <input type="text" class="searchField" placeholder="Search by username, area, organization, etc." (keydown.enter)="search($event.target.value)">
+  <br/>  <br/>
+  <mat-spinner  strokeWidth="5" [diameter]="100" class="overlay-box"  *ngIf="spinnerVisible"></mat-spinner>
+</div>
+
+

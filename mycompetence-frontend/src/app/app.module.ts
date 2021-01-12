@@ -9,7 +9,15 @@ import {HttpClientModule} from "@angular/common/http";
 import { ImpressumComponent } from './impressum/impressum.component';
 import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
 import { HomeComponent } from './home/home.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { HomeRegistrationComponent } from './home/home-registration/home-registration.component';
+import { SearchComponent } from './search/search.component';
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatProgressSpinnerModule, MatSpinner} from "@angular/material/progress-spinner";
+import {MatGridListModule} from "@angular/material/grid-list";
+import {MatCardModule} from "@angular/material/card";
+import {MatListModule} from "@angular/material/list";
+import {MatIcon, MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -17,7 +25,9 @@ import {FormsModule} from '@angular/forms';
     ProfilPageComponent,
     ImpressumComponent,
     PrivacyPoliceComponent,
-    HomeComponent
+    HomeComponent,
+    HomeRegistrationComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -25,6 +35,13 @@ import {FormsModule} from '@angular/forms';
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatGridListModule,
+    MatCardModule,
+    MatListModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
