@@ -34,9 +34,6 @@ jobs:
           cd ..
         
       - name: Deploy
-        uses: jsmrcaga/action-netlify-deploy@v1.1.0
-      #  if: github.ref == 'refs/heads/production'
-        with:
-          NETLIFY_AUTH_TOKEN: ${{ secrets.WEBSITE_TOKEN }}
-          NETLIFY_SITE_ID: 7399a8dd-a16d-4ca7-b8ae-e51b17a81194
-          NETLIFY_DEPLOY_TO_PROD: true
+       #if: github.ref == 'refs/heads/production'
+        run: |
+          netlify deploy
