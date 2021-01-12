@@ -1,19 +1,18 @@
 import {APIGatewayEvent, Context} from 'aws-lambda'
-import { ProfilesPage } from './impl/profilesPage';
+import {ProfilesPage} from './impl/profilesPage';
 import {DatabaseService} from "./impl/database.service";
-import { SearchParameters } from './impl/searchParams';
+import {SearchParameters} from './impl/searchParams';
 
 // @ts-ignore
 exports.handler = async function (event: APIGatewayEvent, context: Context) {
-
     let databaseService = new DatabaseService()
 
-    if (event.httpMethod === "GET") {
+    if (event.httpMethod === "POST") {
         // GET http://localhost:8888/api/profile/search
         if (null == event.body) {
             return {
                 statusCode: 400,
-                body: JSON.stringify({msg: "provide search parameters \"impl/searchParams.ts\" in body" })
+                body: JSON.stringify({msg: "provide search parameters \"impl/searchParams.ts\" in body"})
             }
         }
         let sp = JSON.parse(event.body) as SearchParameters
@@ -27,9 +26,26 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
 
         return {
             statusCode: 200,
+            headers: {
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                'Access-Control-Allow-Origin': '*',
+                "Access-Control-Allow-Headers": '*',
+                'Content-Type': 'application.json',
+            },
             body: JSON.stringify(page)
         };
 
+    } else if (event.httpMethod == "OPTIONS") {
+        console.log("What")
+        return {
+            statusCode: 200,
+            headers: {
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                'Access-Control-Allow-Origin': '*',
+                "Access-Control-Allow-Headers": '*',
+                'Content-Type': 'application.json',
+            }
+        }
     } else {
         /*
         // use POST method to start administrative tasks
@@ -55,9 +71,14 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
 
         return {
             statusCode: 400,
+            headers: {
+                "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                'Access-Control-Allow-Origin': '*',
+                "Access-Control-Allow-Headers": '*',
+                'Content-Type': 'application.json',
+            },
             body: JSON.stringify({msg: "search supports GET only"})
         }
     }
-
 }
 
