@@ -11,6 +11,10 @@ import { PrivacyPoliceComponent } from './privacy-police/privacy-police.componen
 import { HomeComponent } from './home/home.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HomeRegistrationComponent } from './home/home-registration/home-registration.component';
+import { SearchComponent } from './search/search.component';
+import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatProgressSpinnerModule, MatSpinner} from "@angular/material/progress-spinner";
+import {MatGridListModule} from "@angular/material/grid-list";
 
 @NgModule({
   declarations: [
@@ -19,7 +23,8 @@ import { HomeRegistrationComponent } from './home/home-registration/home-registr
     ImpressumComponent,
     PrivacyPoliceComponent,
     HomeComponent,
-    HomeRegistrationComponent
+    HomeRegistrationComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +33,9 @@ import { HomeRegistrationComponent } from './home/home-registration/home-registr
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

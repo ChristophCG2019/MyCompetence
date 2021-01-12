@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {SearchProfile} from "../entity/searchProfile";
 
 @Component({
   selector: 'app-home',
@@ -12,4 +13,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  onSearchResults(profiles: SearchProfile[]) {
+    console.log("Got profiles" + JSON.stringify(profiles))
+  }
 }
