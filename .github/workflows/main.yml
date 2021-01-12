@@ -23,7 +23,7 @@ jobs:
         run: npm run build
         
       - name: Deploy
-      - uses: jsmrcaga/action-netlify-deploy@v1.1.0
+        uses: jsmrcaga/action-netlify-deploy@v1.1.0
         if: github.ref == 'refs/heads/production'
         with:
           NETLIFY_AUTH_TOKEN: ${{ secrets.WEBSITE_TOKEN }}
