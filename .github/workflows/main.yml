@@ -34,6 +34,6 @@ jobs:
           cd ..
         
       - name: Deploy
-       #if: github.ref == 'refs/heads/production'
+        if: github.ref == 'refs/heads/production'
         run: |
           netlify deploy --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=7399a8dd-a16d-4ca7-b8ae-e51b17a81194 --prod
