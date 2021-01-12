@@ -9,7 +9,7 @@ import {HttpClientModule} from "@angular/common/http";
 import { ImpressumComponent } from './impressum/impressum.component';
 import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
 import { HomeComponent } from './home/home.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HomeRegistrationComponent } from './home/home-registration/home-registration.component';
 
 @NgModule({
@@ -27,6 +27,7 @@ import { HomeRegistrationComponent } from './home/home-registration/home-registr
     BrowserAnimationsModule,
     HttpClientModule,
     FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
