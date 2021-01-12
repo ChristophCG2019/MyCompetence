@@ -5,8 +5,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  Build-Frontend-Backend:
+  Build-Frontend:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./mycompetence-frontend
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -14,26 +17,27 @@ jobs:
            node-version: '12'
 
       - name: Install
-        run:  |
-          npm install netlify-cli -g
-          cd ./mycompetence-frontend
-          npm install 
-          cd ..
-          cd ./mycompetence-webapi
-          echo "export const DATABASE_SECRET = \"PLACEHOLDER\"" > src/environment.ts 
-          npm install
-          cd ..
+        run: npm install
       
       - name: Build
-        run: |
-          cd ./mycompetence-frontend
-          npm run publish 
-          cd ..
-          cd ./mycompetence-webapi
-          npm run build 
-          cd ..
+        run: npm run build
         
-      - name: Deploy
-        if: github.ref == 'refs/heads/production'
+  Build-Backend:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./mycompetence-webapi
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+           node-version: '12'
+
+      - name: Install
         run: |
-          netlify deploy --auth=${{ secrets.NETLIFY_AUTH_TOKEN }} --site=7399a8dd-a16d-4ca7-b8ae-e51b17a81194 --prod
+          echo "export const DATABASE_SECRET = \"PLACEHOLDER\"" > src/environment.ts 
+          npm install netlify-cli -g
+          npm install
+      
+      - name: Build
+        run: npm run build        
