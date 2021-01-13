@@ -48,8 +48,8 @@ export class ProfileService {
   cursor: string
 
   async getProfileById(id: string): Promise<Profile> {
-    let profile = await this.httpclient.get("baseurl/api/profile/" + id).toPromise() as Profile
+    let profile = await this.httpclient.get("" + id).toPromise() as Profile;
 
-    return profile
+    return profile;
   }
 }

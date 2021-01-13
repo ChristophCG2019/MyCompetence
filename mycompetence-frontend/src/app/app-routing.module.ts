@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import {ImpressumComponent} from './impressum/impressum.component';
-import {PrivacyPoliceComponent} from './privacy-police/privacy-police.component';
+import {PrivacyPolicyComponent} from './privacy-policy/privacy-policy.component';
 import {HomeComponent} from './home/home.component';
 import {HomeRegistrationComponent} from './home/home-registration/home-registration.component';
 import {ProfilPageComponent} from './profil-page/profil-page.component';
@@ -12,7 +12,7 @@ const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'home/registration', component: HomeRegistrationComponent},
   {path: 'impressum', component: ImpressumComponent},
-  {path: 'privacyPolice', component: PrivacyPoliceComponent},
+  {path: 'privacyPolicy', component: PrivacyPolicyComponent},
   {path: 'profile/:id', component: ProfilPageComponent}
 ];
 
