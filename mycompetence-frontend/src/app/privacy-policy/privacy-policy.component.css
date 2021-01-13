@@ -26,13 +26,14 @@
   box-shadow: none;
   overflow-x: auto;
   overflow-y: auto;
-  width: 1394.00px;
   left: 0.00px;
   top: 10px;
   right: 0px;
   bottom: 0px;
   margin: auto;
   margin-top: 16px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .privacyPoliceHead{
