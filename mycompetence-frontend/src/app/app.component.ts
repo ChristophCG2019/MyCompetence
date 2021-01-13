@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup} from "@angular/forms";
+import {FormBuilder, FormGroup} from '@angular/forms';
+import {Profile} from './entity/profile.entity';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +9,9 @@ import {FormBuilder, FormGroup} from "@angular/forms";
 })
 export class AppComponent implements OnInit{
   loggedIn: boolean;
-  username: string;
+  profile: Profile;
   password: string;
+  username: string;
 
   title = 'mycompetence';
   form: FormGroup;
@@ -18,30 +20,30 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
-    this.username = '';
+    this.profile = new Profile();
+    this.profile.userName = '';
     this.password = '';
     this.form = this.formBuilder.group({
-      username: "",
-      password: ""
+      username: '',
+      password: ''
     });
   }
 
   logOut(): void {
-    console.log(this.username);
     this.loggedIn = false;
-    this.username = '';
+    this.profile.userName = '';
     this.password = '';
     this.form = this.formBuilder.group({
-      username: "",
-      password: ""
+      username: '',
+      password: ''
     });
   }
 
   logIn(): void{
-    this.username = this.form.get("username").value
-    this.password = this.form.get("password").value
+    this.profile.userName = this.form.get('username').value;
+    this.password = this.form.get('password').value;
     this.loggedIn = true;
 
-    console.log("User: " + this.username + " is logged in with password " + this.password);
+    console.log('User: ' + this.profile.userName + ' is logged in with password ' + this.password);
   }
 }

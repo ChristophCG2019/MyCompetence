@@ -19,6 +19,12 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
 
             return {
                 statusCode: 201,
+                headers: {
+                    "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                    'Access-Control-Allow-Origin': '*',
+                    "Access-Control-Allow-Headers": '*',
+                    'Content-Type': 'application.json',
+                },
                 body: JSON.stringify(addedItem)
             }
 
@@ -32,6 +38,12 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
 
             return {
                 statusCode: 200,
+                headers: {
+                    "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                    'Access-Control-Allow-Origin': '*',
+                    "Access-Control-Allow-Headers": '*',
+                    'Content-Type': 'application.json',
+                },
                 body: JSON.stringify(updatedItem)
             }
 
@@ -46,16 +58,37 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
             if (null != delItem.name && delItem.name === 'NotFound') {
                 return {
                     statusCode: 404,
+                    headers: {
+                        "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                        'Access-Control-Allow-Origin': '*',
+                        "Access-Control-Allow-Headers": '*',
+                        'Content-Type': 'application.json',
+                    },
                     body: JSON.stringify({msg: "item with id '" + pDelete.id + "' not found."})
                 }
     
             } else {
                 return {
-                    statusCode: 204
+                    statusCode: 204,
+                    headers: {
+                        "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                        'Access-Control-Allow-Origin': '*',
+                        "Access-Control-Allow-Headers": '*',
+                        'Content-Type': 'application.json',
+                    }
                     // no content
                 }
             }
-
+        case "OPTIONS":
+            return {
+                statusCode: 200,
+                headers: {
+                    "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                    'Access-Control-Allow-Origin': '*',
+                    "Access-Control-Allow-Headers": '*',
+                    'Content-Type': 'application.json',
+                }
+            }
         default:
             // GET http://localhost:8888/api/profile
             let id = event.path.substr("/api/profile/".length)
@@ -66,6 +99,12 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
 
                 return {
                     statusCode: 200,
+                    headers: {
+                        "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                        'Access-Control-Allow-Origin': '*',
+                        "Access-Control-Allow-Headers": '*',
+                        'Content-Type': 'application.json',
+                    },
                     body: JSON.stringify(res)
                 };
 
@@ -75,18 +114,28 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
                 if (null != res.name && res.name === 'NotFound') {
                     return {
                         statusCode: 404,
+                        headers: {
+                            "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                            'Access-Control-Allow-Origin': '*',
+                            "Access-Control-Allow-Headers": '*',
+                            'Content-Type': 'application.json',
+                        },
                         body: JSON.stringify({msg: "item with id '" + id + "' not found."})
                     }
         
                 } else {
                     return {
                         statusCode: 200,
+                        headers: {
+                            "Access-Control-Allow-Methods": "GET, POST, OPTIONS, PUT, DELETE",
+                            'Access-Control-Allow-Origin': '*',
+                            "Access-Control-Allow-Headers": '*',
+                            'Content-Type': 'application.json',
+                        },
                         body: JSON.stringify(res)
                     }
                 }
             }
-
     }
-
 }
 
