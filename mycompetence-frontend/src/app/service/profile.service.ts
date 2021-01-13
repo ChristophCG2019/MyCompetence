@@ -16,14 +16,12 @@ export class ProfileService {
   async searchForProfiles(query: string): Promise<SearchProfile[]> {
     let userNameSearchTask = await this.httpclient.post(environment.baseUrl + "api/search", {
       username: query,
-      cursor: "0"
     }).toPromise()
 
     console.log(environment.baseUrl)
 
     let competenceSearchTask = this.httpclient.post(environment.baseUrl + "api/search", {
       competence: query,
-      cursor: "0"
     }).toPromise()
 
     let result = []

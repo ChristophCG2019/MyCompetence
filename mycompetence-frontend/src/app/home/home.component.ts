@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {SearchProfile} from "../entity/searchProfile";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-home',
@@ -11,7 +12,7 @@ export class HomeComponent implements OnInit {
   initialState: boolean = true
   isSearchRunning: boolean = false
 
-  constructor() {
+  constructor(private router : Router) {
   }
 
   ngOnInit(): void {
@@ -60,5 +61,9 @@ export class HomeComponent implements OnInit {
     }
 
     return text
+  }
+
+  async navigateToProfile(id: string) : Promise<void>{
+    await this.router.navigate(["/profile/" + id])
   }
 }
