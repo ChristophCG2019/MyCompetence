@@ -53,6 +53,11 @@ export class ProfileService {
     return result as Profile
   }
 
+  async saveProfile(profile: Profile): Promise<Profile> {
+    let result = await this.httpclient.put(environment.baseUrl + "api/profile/" + profile.id, profile).toPromise() as Profile;
+    return result;
+  }
+
   async getProfileById(id: string): Promise<Profile> {
     let profile = await this.httpclient.get(environment.baseUrl + "api/profile/" + id).toPromise() as Profile;
     return profile;

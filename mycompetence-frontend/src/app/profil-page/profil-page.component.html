@@ -50,7 +50,6 @@
             </span>
       </td>
       <td class="userDataVisReg">
-        Red Cross Urfahr
         <!--{{profile.organisation}}-->
       </td>
     </tr>
@@ -83,7 +82,7 @@
         </span>
       </td>
       <td class="userDataVisReg">
-        Specialised on children. Paramedic
+
         <!--{{profile.badges}}-->
       </td>
     </tr>
@@ -101,14 +100,17 @@
 <br/>
 <div class="userDataCompetences"><b>Competences:</b></div>
 <br/>
-<mat-list *ngIf="profile?.competences.length != 0">
+<mat-list *ngIf="profile?.competences?.length != 0">
   <mat-list-item *ngFor="let competence of profile.competences">
-    <mat-card style="background-color: white;width: 60%;margin-left: 50px">
-      <mat-card-title style="color: black"> {{competence.name}}</mat-card-title>
+    <mat-card style="background-color: white;width: 40%;margin-left: 50px">
+      <mat-card-title style="color: black"> {{competence.name}}
+        <button mat-raised-button *ngIf="hasAlreadyApproved == false" color="success" style="float: right" (click)="onApproveIncrease(competence)">Approve - {{competence.countApproved}} Vote(s)</button>
+        <button mat-raised-button *ngIf="hasAlreadyApproved" color="warn" style="float: right" (click)="onApproveDecrease(competence)">Remove Vote - {{competence.countApproved}} Vote(s)</button>
+      </mat-card-title>
       <mat-card-content style="color: grey">{{competence.description}}</mat-card-content>
+
     </mat-card>
   </mat-list-item>
   <br/> <br/>
 </mat-list>
-
 
