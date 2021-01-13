@@ -1,7 +1,7 @@
 <div class="registrationForm">
   <svg class="registrationFormBorder"><path d="M 0 0 L 809.989990234375 0 L 809.989990234375 434.5334167480469 L 0 434.5334167480469 L 0 0 Z"></path>
   </svg>
-  <table class="registrationFormTable">
+  <table class="registrationFormTable" id="registrationFormTable">
     <tr>
       <th>
             <span class="registrationFormTableTH">
@@ -19,7 +19,7 @@
             </span>
       </td>
       <td>
-        <input type="text">
+        <input type="text" id="e-mailInput">
       </td>
     </tr>
     <tr>
@@ -29,7 +29,7 @@
             </span>
       </td>
       <td>
-        <input type="text">
+        <input type="text" id="usernameInput">
       </td>
     </tr>
     <tr>
@@ -39,7 +39,7 @@
             </span>
       </td>
       <td>
-        <input type="text">
+        <input type="text" id="passwordInput">
       </td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@
             </span>
       </td>
       <td>
-        <input type="text">
+        <input type="text" id="organisationInput">
       </td>
     </tr>
     <tr>
@@ -67,7 +67,7 @@
 
       </td>
       <td>
-        <button>Submit</button>
+        <button (click)="register()">Submit</button>
       </td>
     </tr>
   </table>
