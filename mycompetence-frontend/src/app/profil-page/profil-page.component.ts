@@ -10,14 +10,15 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class ProfilPageComponent implements OnInit {
 
-  profile: Profile;
+  profile: Profile = new Profile()
 
   constructor(private profileService: ProfileService, private route: ActivatedRoute) {
   }
 
   async ngOnInit(): Promise<void> {
     const Id = this.route.snapshot.params['id'].toString();
-    const tmp = await this.profileService.getProfileById(Id);
-    console.log('Result: ' + tmp);
+    this.profile = await this.profileService.getProfileById(Id);
+    console.log("Ok")
+    console.log(JSON.stringify(this.profile))
   }
 }

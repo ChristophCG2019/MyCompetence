@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<link href="profil-page.component.css" rel="stylesheet" type="text/css">
-
-<body>
 <div class="userDataPic"><img src="{{profile.image}}" alt="portrait {{profile.userName}}"/></div>
 <div class="userData">
-  <table class="userDataVis">
+  <table class="userDataVis" style="margin-top: 50px">
     <tr>
       <td>
             <span class="userDataVisReg">
               <b>Username:</b>
             </span>
       </td>
-      <td>
+      <td class="userDataVisReg">
         <b>{{profile.userName}}</b>
       </td>
     </tr>
@@ -21,7 +17,7 @@
               Name:
             </span>
       </td>
-      <td>
+      <td class="userDataVisReg">
         {{profile.firstName}} {{profile.lastName}}
       </td>
     </tr>
@@ -31,7 +27,7 @@
               Age:
             </span>
       </td>
-      <td>
+      <td class="userDataVisReg">
         22
         <!--{{profile.age}}-->
       </td>
@@ -42,7 +38,7 @@
               Location:
             </span>
       </td>
-      <td>
+      <td class="userDataVisReg">
         Linz
         <!--{{profile.location}}-->
       </td>
@@ -53,57 +49,66 @@
               Organisation:
             </span>
       </td>
-      <td>
+      <td class="userDataVisReg">
         Red Cross Urfahr
         <!--{{profile.organisation}}-->
       </td>
     </tr>
     <tr>
-        <td>
+      <td>
               <span class="userDataVisReg">
                 Joined:
               </span>
-        </td>
-        <td>
-          <!--{{profile.entryDate}}-->
-          July 2018
-        </td>
-      </tr>
+      </td>
+      <td class="userDataVisReg">
+        <!--{{profile.entryDate}}-->
+        July 2018
+      </td>
+    </tr>
     <tr>
       <td>
             <span class="userDataVisReg">
               Operations:
             </span>
       </td>
-      <td>
-          32
-          <!--{{profile.numberOperations}}-->
+      <td class="userDataVisReg">
+        32
+        <!--{{profile.numberOperations}}-->
       </td>
     </tr>
     <tr>
-      <td>
+      <td class="userDataVisReg">
         <span class="userDataVisReg">
           Badges:
         </span>
       </td>
-      <td>
+      <td class="userDataVisReg">
         Specialised on children. Paramedic
-          <!--{{profile.badges}}-->
+        <!--{{profile.badges}}-->
       </td>
     </tr>
   </table>
 </div>
+
+<br/>
+<br/>
+<br/>
+<br/>
 <div class="userDataAboutMe">
   <b>About me:</b>
-  <p>{{profile.description}}</p>
+  <p style="margin-top: 20px">{{profile.description}}</p>
 </div>
-
+<br/>
 <div class="userDataCompetences"><b>Competences:</b></div>
-<div class="userDataCompetencesField"><p>{{profile.competences[0].name}}</p></div>
-<div class="userDataCompetencesField1"><p>{{profile.competences[1].name}}</p></div>
-<div class="userDataCompetencesField2"><p>{{profile.competences[2].name}}</p></div>
-<div class="userDataCompetencesField3"><p>{{profile.competences[3].name}}</p></div>
+<br/>
+<mat-list *ngIf="profile?.competences.length != 0">
+  <mat-list-item *ngFor="let competence of profile.competences">
+    <mat-card style="background-color: white;width: 60%;margin-left: 50px">
+      <mat-card-title style="color: black"> {{competence.name}}</mat-card-title>
+      <mat-card-content style="color: grey">{{competence.description}}</mat-card-content>
+    </mat-card>
+  </mat-list-item>
+  <br/> <br/>
+</mat-list>
 
-<div class="userDataCompetencesApproved"><p>Approved by:</p></div><br>
 
-</body>
