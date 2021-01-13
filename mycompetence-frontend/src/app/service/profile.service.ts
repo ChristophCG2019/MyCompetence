@@ -49,7 +49,7 @@ export class ProfileService {
 
   async registerNewProfile(profile: Profile): Promise<Profile> {
     let result = await this.httpclient.post(environment.baseUrl + "api/profile", profile).toPromise()
-    console.log("Aded item: " + JSON.stringify(result))
+    console.log("Added item: " + JSON.stringify(result))
     return result as Profile
   }
 
