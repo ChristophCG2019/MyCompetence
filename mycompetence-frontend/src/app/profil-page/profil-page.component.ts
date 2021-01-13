@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {Profile} from '../../../../mycompetence-webapi/src/entity/profile.entity';
 import {ProfileService} from '../service/profile.service';
 
 @Component({
@@ -9,16 +8,13 @@ import {ProfileService} from '../service/profile.service';
 })
 export class ProfilPageComponent implements OnInit {
 
-  profile: Profile;
 
 
   constructor(private profileService: ProfileService) {
-    this.profile = new Profile();
   }
 
   async ngOnInit(): Promise<void> {
     const tmp = await this.profileService.getProfileById('blabla');
     console.log('Result: ' + tmp);
-    this.profile = tmp;
   }
 }

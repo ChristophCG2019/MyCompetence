@@ -8,8 +8,8 @@ import {SearchProfile} from "../entity/searchProfile";
 })
 export class HomeComponent implements OnInit {
   searchProfileResults: SearchProfile[] = []
-  initialState : boolean = true
-  isSearchRunning : boolean = false
+  initialState: boolean = true
+  isSearchRunning: boolean = false
 
   constructor() {
   }
@@ -44,12 +44,14 @@ export class HomeComponent implements OnInit {
   getJoinedCompetencesText(profile: SearchProfile): string {
     let text = ""
 
-    profile.competences.forEach(e => {
-      if (text.length != 0) {
-        text += ", "
-      }
-      text += e.name
-    })
+    if (profile.competences != undefined) {
+      profile.competences.forEach(e => {
+        if (text.length != 0) {
+          text += ", "
+        }
+        text += e.name
+      })
+    }
 
     if (text.length == 0) {
       text = "This user does not list any public competences."
