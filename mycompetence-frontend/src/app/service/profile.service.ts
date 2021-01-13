@@ -54,8 +54,7 @@ export class ProfileService {
   }
 
   async getProfileById(id: string): Promise<Profile> {
-    let profile = await this.httpclient.get("" + id).toPromise() as Profile;
-
+    let profile = await this.httpclient.get(environment.baseUrl + "api/profile/" + id).toPromise() as Profile;
     return profile;
   }
 }
