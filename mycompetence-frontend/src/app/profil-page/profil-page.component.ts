@@ -31,7 +31,7 @@ export class ProfilPageComponent implements OnInit {
   }
 
   async onApproveDecrease(competence: Competence): Promise<void> {
-    this.hasAlreadyApproved = true
+    this.hasAlreadyApproved = false
     competence.countApproved -= 1
     this.profile = await this.profileService.saveProfile(this.profile)
     console.log("Refresh")
