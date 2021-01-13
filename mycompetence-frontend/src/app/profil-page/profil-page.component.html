@@ -1,12 +1,116 @@
-<p>profil-page works!</p>
+<div class="userDataPic"><img src="{{profile.image}}" alt="portrait {{profile.userName}}"/></div>
+<div class="userData">
+  <table class="userDataVis" style="margin-top: 50px">
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              <b>Username:</b>
+            </span>
+      </td>
+      <td class="userDataVisReg">
+        <b>{{profile.userName}}</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Name:
+            </span>
+      </td>
+      <td class="userDataVisReg">
+        {{profile.firstName}} {{profile.lastName}}
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Age:
+            </span>
+      </td>
+      <td class="userDataVisReg">
+        22
+        <!--{{profile.age}}-->
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Location:
+            </span>
+      </td>
+      <td class="userDataVisReg">
+        Linz
+        <!--{{profile.location}}-->
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Organisation:
+            </span>
+      </td>
+      <td class="userDataVisReg">
+        <!--{{profile.organisation}}-->
+      </td>
+    </tr>
+    <tr>
+      <td>
+              <span class="userDataVisReg">
+                Joined:
+              </span>
+      </td>
+      <td class="userDataVisReg">
+        <!--{{profile.entryDate}}-->
+        July 2018
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Operations:
+            </span>
+      </td>
+      <td class="userDataVisReg">
+        32
+        <!--{{profile.numberOperations}}-->
+      </td>
+    </tr>
+    <tr>
+      <td class="userDataVisReg">
+        <span class="userDataVisReg">
+          Badges:
+        </span>
+      </td>
+      <td class="userDataVisReg">
 
-<h1>{{profile.firstName}}</h1>
-
-<div class="row">
-  <div class="col s6">
- <!--   <app-profil-page></app-profil-page>-->
-  </div>
-  <div class="col s6">
-
-  </div>
+        <!--{{profile.badges}}-->
+      </td>
+    </tr>
+  </table>
 </div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="userDataAboutMe">
+  <b>About me:</b>
+  <p style="margin-top: 20px">{{profile.description}}</p>
+</div>
+<br/>
+<div class="userDataCompetences"><b>Competences:</b></div>
+<br/>
+<mat-list *ngIf="profile?.competences?.length != 0">
+  <mat-list-item *ngFor="let competence of profile.competences">
+    <mat-card style="background-color: white;width: 40%;margin-left: 50px">
+      <mat-card-title style="color: black"> {{competence.name}}
+        <button mat-raised-button *ngIf="hasAlreadyApproved == false" color="success" style="float: right" (click)="onApproveIncrease(competence)">Approve - {{competence.countApproved}} Vote(s)</button>
+        <button mat-raised-button *ngIf="hasAlreadyApproved" color="warn" style="float: right" (click)="onApproveDecrease(competence)">Remove Vote - {{competence.countApproved}} Vote(s)</button>
+      </mat-card-title>
+      <mat-card-content style="color: grey">{{competence.description}}</mat-card-content>
+
+    </mat-card>
+  </mat-list-item>
+  <br/> <br/>
+</mat-list>
+

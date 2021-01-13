@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProfilPageComponent } from './profil-page/profil-page.component';
 import {HttpClientModule} from "@angular/common/http";
 import { ImpressumComponent } from './impressum/impressum.component';
-import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { HomeComponent } from './home/home.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HomeRegistrationComponent } from './home/home-registration/home-registration.component';
@@ -18,13 +18,14 @@ import {MatGridListModule} from "@angular/material/grid-list";
 import {MatCardModule} from "@angular/material/card";
 import {MatListModule} from "@angular/material/list";
 import {MatIcon, MatIconModule} from "@angular/material/icon";
+import {MatButtonModule} from "@angular/material/button";
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfilPageComponent,
     ImpressumComponent,
-    PrivacyPoliceComponent,
+    PrivacyPolicyComponent,
     HomeComponent,
     HomeRegistrationComponent,
     SearchComponent,
@@ -42,6 +43,7 @@ import {MatIcon, MatIconModule} from "@angular/material/icon";
     MatCardModule,
     MatListModule,
     MatIconModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
