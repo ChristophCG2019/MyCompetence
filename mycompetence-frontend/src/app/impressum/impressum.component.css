@@ -1,5 +1,5 @@
 .impressumOuterDiv{
-  position: absolute;
+  display: flow-root;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11,7 +11,7 @@
   cursor: default;
   padding-top: 0.00px;
   padding-right: 0.00px;
-  padding-bottom: 0.00px;
+  padding-bottom: 50px;
   padding-left: 0.00px;
   background-color: rgba(255, 255, 255, 0);
   text-align: left;
@@ -24,15 +24,16 @@
   font-family: Arial;
   text-decoration: none;
   box-shadow: none;
-  overflow-x: unset;
-  overflow-y: unset;
-  width: 1529.00px;
+  overflow-x: auto;
+  overflow-y: auto;
+  width: 1100.00px;
   height: 761.00px;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
-  top: 116px;
+  top: 10px;
   right: 0;
   margin: auto;
+  margin-top: 16px;
 }
 
 .headSpan{

@@ -31,6 +31,10 @@ export class HomeRegistrationComponent implements OnInit {
       profile.description = "Member of " + organisation
       await this.profileService.registerNewProfile(profile)
       this.newRegistered = true;
+      console.log(username);
+      console.log(password);
+      console.log(e_mail);
+      console.log(organisation);
     }
   }
 }
