@@ -1,12 +1,105 @@
-<p>profil-page works!</p>
+<!DOCTYPE html>
+<link href="profil-page.component.css" rel="stylesheet" type="text/css">
 
-<h1>{{profile.firstName}}</h1>
+<body>
+<div class="userDataPic">{profile.image}</div>
+	<div class="userData">
+		  <table class="userDataVis">
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              <b>Username:</b>
+            </span>
+      </td>
+      <td>
+        <b>{profile.userName}</b>
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Name:
+            </span>
+      </td>
+      <td>
+        {profile.firstName} {profile.lastName}
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Age:
+            </span>
+      </td>
+      <td>
+        {profile.age}
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Location:
+            </span>
+      </td>
+      <td>
+        {profile.location} 
+      </td>
+    </tr>
+    <tr>
+      <td>
+            <span class="userDataVisReg">
+              Organisation:
+            </span>
+      </td>
+      <td>
+        {profile.organisation}
+      </td>
+    </tr>
+	<tr>
+      <td>
+            <span class="userDataVisReg">
+              Joined:
+            </span>
+      </td>
+      <td>
+        {profile.entryDate}
+      </td>
+    </tr>
+	<tr>
+      <td>
+            <span class="userDataVisReg">
+              Operations:
+            </span>
+	  </td>
+			  <td>
+				{profile.numberOperations}
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+					<span class="userDataVisReg">
+					  Badges:
+					</span>
+			  </td>
+			  <td>
+				{profile.badges}
+			  </td>
+			</tr>
+		</table>
+	</div>
+	<div class="userDataAboutMe">
+		<b>About me:</b>
+		<p>{profile.description}</p>
+	</div>
 
-<div class="row">
-  <div class="col s6">
- <!--   <app-profil-page></app-profil-page>-->
-  </div>
-  <div class="col s6">
+	<div class="userDataCompetences"><b>Competences:</b></div>
+	<div class="userDataCompetencesField"><p>{profile.Competences[0]}</p></div>
+	<div class="userDataCompetencesField1"><p>{profile.Competences[1]}</p></div>
+	<div class="userDataCompetencesField2"><p>{profile.Competences[2]}</p></div>
+	<div class="userDataCompetencesField3"><p>{profile.Competences[3]}</p></div>
+	
+	<div class="userDataCompetencesApproved">
+		<p>Approved by:</p>
+	</div>
 
-  </div>
-</div>
+</body>
