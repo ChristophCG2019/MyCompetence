@@ -14,7 +14,7 @@
     No results.
   </div>
   <mat-nav-list *ngIf="searchProfileResults.length != 0" class="mymatlist">
-    <a href="/profile/{{profile.id}}"  style="width: 100%" *ngFor="let profile of searchProfileResults" >
+    <a (click)="navigateToProfile(profile.id)"  style="width: 100%" *ngFor="let profile of searchProfileResults" >
       <mat-list-item>
         <mat-card style="background-color: white;width: 100%" >
           <mat-card-title style="color: black">    <mat-icon style="color: black"> person_pin</mat-icon> User: {{profile.userName}}</mat-card-title>
