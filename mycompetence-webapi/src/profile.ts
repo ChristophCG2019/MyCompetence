@@ -61,8 +61,8 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
             let id = event.path.substr("/api/profile/".length)
             if (id.length == 0) {
                 // get all profiles
-                let cursor = event.body == null ? null : JSON.parse(event.body).id
-                let res = await databaseService.getPageUnfiltered(cursor) as ProfilesPage
+                //let cursor = event.body == null || event.body ? null : JSON.parse(event.body).id
+                let res = await databaseService.getPageUnfiltered(null) as ProfilesPage
 
                 return {
                     statusCode: 200,
