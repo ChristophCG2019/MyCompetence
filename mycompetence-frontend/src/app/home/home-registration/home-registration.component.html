@@ -1,7 +1,7 @@
 <div class="registrationForm">
   <svg class="registrationFormBorder"><path d="M 0 0 L 809.989990234375 0 L 809.989990234375 434.5334167480469 L 0 434.5334167480469 L 0 0 Z"></path>
   </svg>
-  <table class="registrationFormTable" id="registrationFormTable">
+  <table class="registrationFormTable" id="registrationFormTable" *ngIf="!newRegistered">
     <tr>
       <th>
             <span class="registrationFormTableTH">
@@ -71,7 +71,7 @@
       </td>
     </tr>
   </table>
-
+  <span *ngIf="newRegistered" class="registeredSpan">Thank you for you registration!</span>
 </div>
 <div data-layer="5946f989-b2ae-4601-a3c2-f2e89a7832ca" class="gruppe25">
   <div data-layer="2311ad08-ae0a-4f7b-8b3c-0c66ac60fd5a" class="fireman1">

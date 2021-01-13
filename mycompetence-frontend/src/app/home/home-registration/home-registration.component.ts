@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Profile} from '../../../../../mycompetence-webapi/src/entity/profile.entity';
+import {Profile} from '../../entity/profile.entity';
 
 @Component({
   selector: 'app-home-registration',
@@ -9,11 +9,12 @@ import {Profile} from '../../../../../mycompetence-webapi/src/entity/profile.ent
 export class HomeRegistrationComponent implements OnInit {
 
   profile: Profile;
+  newRegistered: boolean;
 
   constructor() { }
 
   ngOnInit(): void {
-
+    this.newRegistered = false;
   }
 
   register(): void {
@@ -22,5 +23,9 @@ export class HomeRegistrationComponent implements OnInit {
     let e_mail = (document.getElementById('e-mailInput') as HTMLInputElement).value;
     let organisation = (document.getElementById('organisationInput') as HTMLInputElement).value;
 
+    if (username !== null && password != null && e_mail != null && organisation != null){
+      // Register
+      this.newRegistered = true;
+    }
   }
 }

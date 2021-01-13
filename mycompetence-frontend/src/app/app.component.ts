@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup} from '@angular/forms';
-import {Profile} from '../../../mycompetence-webapi/src/entity/profile.entity';
+import {Profile} from './entity/profile.entity';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +11,7 @@ export class AppComponent implements OnInit{
   loggedIn: boolean;
   profile: Profile;
   password: string;
+  username: string;
 
   title = 'mycompetence';
   form: FormGroup;
@@ -19,6 +20,7 @@ export class AppComponent implements OnInit{
   }
 
   ngOnInit(): void {
+    this.profile = new Profile();
     this.profile.userName = '';
     this.password = '';
     this.form = this.formBuilder.group({
