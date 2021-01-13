@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProfilPageComponent } from './profil-page/profil-page.component';
 import {HttpClientModule} from "@angular/common/http";
 import { ImpressumComponent } from './impressum/impressum.component';
-import { PrivacyPoliceComponent } from './privacy-police/privacy-police.component';
+import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { HomeComponent } from './home/home.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HomeRegistrationComponent } from './home/home-registration/home-registration.component';
@@ -24,7 +24,7 @@ import {MatIcon, MatIconModule} from "@angular/material/icon";
     AppComponent,
     ProfilPageComponent,
     ImpressumComponent,
-    PrivacyPoliceComponent,
+    PrivacyPolicyComponent,
     HomeComponent,
     HomeRegistrationComponent,
     SearchComponent,
