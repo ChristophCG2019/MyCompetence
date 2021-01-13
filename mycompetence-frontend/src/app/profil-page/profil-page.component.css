@@ -4,13 +4,13 @@
       }
 
 .userData{
-
+	
 }
 
 .userDataPic{
 	position: absolute;
 	top: 116px;
-	left: 80px;
+  	left: 80px;
 }
 
 .userDataVis{

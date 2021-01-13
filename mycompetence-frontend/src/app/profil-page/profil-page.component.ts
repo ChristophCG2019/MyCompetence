@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ProfileService} from '../service/profile.service';
+import {Profile} from '../entity/profile.entity';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-profil-page',
@@ -8,13 +10,14 @@ import {ProfileService} from '../service/profile.service';
 })
 export class ProfilPageComponent implements OnInit {
 
+  profile: Profile;
 
-
-  constructor(private profileService: ProfileService) {
+  constructor(private profileService: ProfileService, private route: ActivatedRoute) {
   }
 
   async ngOnInit(): Promise<void> {
-    const tmp = await this.profileService.getProfileById('blabla');
+    const Id = this.route.snapshot.params['id'].toString();
+    const tmp = await this.profileService.getProfileById(Id);
     console.log('Result: ' + tmp);
   }
 }
