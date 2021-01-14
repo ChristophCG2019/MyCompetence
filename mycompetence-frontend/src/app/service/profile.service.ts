@@ -31,10 +31,14 @@ export class ProfileService {
     let competenceResult = (await competenceSearchTask).data as SearchProfile[]
 
     userResult.forEach(e => result.push(e))
-    competenceResult.forEach(e => result.push(e))
+    competenceResult.forEach(e => {
+      if(result.find(x => x.id == e.id) == undefined){
+        result.push(e)
+      }
+    })
 
-    // TODO: Maybe remove output
     console.log(JSON.stringify(result))
+
     return result
   }
 

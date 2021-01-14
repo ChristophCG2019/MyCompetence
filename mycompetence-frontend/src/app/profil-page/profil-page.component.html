@@ -1,4 +1,4 @@
-<div class="userDataPic"><img src="{{profile.image}}" alt="portrait {{profile.userName}}"/></div>
+<div class="userDataPic"><img src="{{profile.image}}" alt="portrait {{profile.userName}}" width="300px" height="300px"/></div>
 <div class="userData">
   <table class="userDataVis" style="margin-top: 50px">
     <tr>
@@ -27,7 +27,7 @@
               Age:
             </span>
       </td>
-      <td class="userDataVisReg">
+      <td class="userDataVisReg" *ngIf="profile.userName != 'Pauli'">
         22
         <!--{{profile.age}}-->
       </td>
@@ -70,7 +70,7 @@
               Operations:
             </span>
       </td>
-      <td class="userDataVisReg">
+      <td class="userDataVisReg"  *ngIf="profile.userName != 'Pauli'">
         32
         <!--{{profile.numberOperations}}-->
       </td>
@@ -101,7 +101,7 @@
 <div class="userDataCompetences"><b>Competences:</b></div>
 <br/>
 <mat-list *ngIf="profile?.competences?.length != 0">
-  <mat-list-item *ngFor="let competence of profile.competences">
+  <mat-list-item *ngFor="let competence of profile.competences" style="margin-bottom: 40px">
     <mat-card style="background-color: white;width: 40%;margin-left: 50px">
       <mat-card-title style="color: black"> {{competence.name}}
         <button mat-raised-button *ngIf="hasAlreadyApproved == false" color="success" style="float: right" (click)="onApproveIncrease(competence)">Approve - {{competence.countApproved}} Vote(s)</button>
@@ -110,7 +110,8 @@
       <mat-card-content style="color: grey">{{competence.description}}</mat-card-content>
 
     </mat-card>
+    <br/>
   </mat-list-item>
-  <br/> <br/>
+  <br/> <br/>  <br/>  <br/>
 </mat-list>
 
