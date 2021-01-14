@@ -8,7 +8,7 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
     let databaseService = new DatabaseService()
 
     if (event.httpMethod === "POST") {
-        // GET http://localhost:8888/api/profile/search
+        // POST http://localhost:8888/api/profile/search
         if (null == event.body) {
             return {
                 statusCode: 400,
@@ -77,7 +77,7 @@ exports.handler = async function (event: APIGatewayEvent, context: Context) {
                 "Access-Control-Allow-Headers": '*',
                 'Content-Type': 'application.json',
             },
-            body: JSON.stringify({msg: "search supports GET only"})
+            body: JSON.stringify({msg: "search supports POST only"})
         }
     }
 }

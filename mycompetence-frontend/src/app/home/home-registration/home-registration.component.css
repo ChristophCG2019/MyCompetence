@@ -1,6 +1,6 @@
 
 .registeredSpan{
-  position: absolute;
+  position: fixed;
   top: 250px;
   left: 10px;
 }
@@ -10,7 +10,7 @@
 }
 
 .registrationFormBorder{
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -39,7 +39,7 @@
 }
 
 .registrationFormTable{
-  position: absolute;
+  position: fixed;
   top: 250px;
   left: 20px;
 }
@@ -187,7 +187,7 @@
 
 .gruppe25 {
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -217,7 +217,7 @@
 .gruppe25 .fireman1 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -248,7 +248,7 @@
 .gruppe25 .fireman1 .gruppe6 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -277,7 +277,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck12 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -321,7 +321,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad1 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -352,7 +352,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck13 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -396,7 +396,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck14 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -440,7 +440,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck15 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -484,7 +484,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck16 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -528,7 +528,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck17 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -572,7 +572,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck18 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -616,7 +616,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck19 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -660,7 +660,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad2 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -691,7 +691,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck20 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -735,7 +735,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck21 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -779,7 +779,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck22 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -825,7 +825,7 @@
 .gruppe25 .fireman1 .gruppe6 .gruppe1 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -854,7 +854,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe1 .pfad3 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -885,7 +885,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe1 .rechteck23 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -929,7 +929,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe1 .pfad4 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -960,7 +960,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe1 .pfad5 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -993,7 +993,7 @@
 .gruppe25 .fireman1 .gruppe6 .gruppe2 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1022,7 +1022,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe2 .pfad6 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1053,7 +1053,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe2 .rechteck24 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -1097,7 +1097,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe2 .pfad7 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1128,7 +1128,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe2 .pfad8 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1159,7 +1159,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck25 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1203,7 +1203,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck26 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1247,7 +1247,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck27 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1291,7 +1291,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck28 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1335,7 +1335,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad9 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1366,7 +1366,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .ellipse1 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-76.43deg);
   -webkit-transform: rotate(-76.43deg);
@@ -1397,7 +1397,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad10 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1428,7 +1428,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .ellipse2 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-76.56deg);
   -webkit-transform: rotate(-76.56deg);
@@ -1459,7 +1459,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .ellipse3 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-13.57deg);
   -webkit-transform: rotate(-13.57deg);
@@ -1490,7 +1490,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .ellipse4 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-10.74deg);
   -webkit-transform: rotate(-10.74deg);
@@ -1521,7 +1521,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck29 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1565,7 +1565,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck30 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1609,7 +1609,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .ellipse5 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -1640,7 +1640,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad11 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1671,7 +1671,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad12 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1702,7 +1702,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad13 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1733,7 +1733,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck31 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1777,7 +1777,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck32 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1821,7 +1821,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck33 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1865,7 +1865,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck34 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1909,7 +1909,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck35 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1953,7 +1953,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck36 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -1997,7 +1997,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck37 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2043,7 +2043,7 @@
 .gruppe25 .fireman1 .gruppe6 .gruppe3 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2072,7 +2072,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe3 .pfad14 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2103,7 +2103,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe3 .pfad15 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2134,7 +2134,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe3 .ellipse6 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2165,7 +2165,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe3 .ellipse7 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -2196,7 +2196,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck38 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2240,7 +2240,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck39 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2286,7 +2286,7 @@
 .gruppe25 .fireman1 .gruppe6 .gruppe4 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2315,7 +2315,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe4 .pfad16 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2346,7 +2346,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe4 .pfad17 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2377,7 +2377,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad18 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2408,7 +2408,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad19 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2439,7 +2439,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad20 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2470,7 +2470,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck40 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2514,7 +2514,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck41 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2558,7 +2558,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck42 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2602,7 +2602,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck43 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2646,7 +2646,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck44 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2690,7 +2690,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck45 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2734,7 +2734,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck46 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2778,7 +2778,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck47 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2822,7 +2822,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck48 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2866,7 +2866,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad21 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2897,7 +2897,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck49 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2941,7 +2941,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck50 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -2985,7 +2985,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck51 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3029,7 +3029,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .rechteck52 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3073,7 +3073,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .ellipse8 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -3104,7 +3104,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .pfad22 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3137,7 +3137,7 @@
 .gruppe25 .fireman1 .gruppe6 .gruppe5 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3166,7 +3166,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe5 .rechteck53 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3210,7 +3210,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe5 .ellipse9 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-67.50deg);
   -webkit-transform: rotate(-67.50deg);
@@ -3241,7 +3241,7 @@
 }
 
 .gruppe25 .fireman1 .gruppe6 .gruppe5 .rechteck54 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3287,7 +3287,7 @@
 .gruppe25 .fireman2 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3318,7 +3318,7 @@
 .gruppe25 .fireman2 .gruppe11 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3347,7 +3347,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad23 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3378,7 +3378,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad24 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3409,7 +3409,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck55 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -3453,7 +3453,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck56 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -3497,7 +3497,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck57 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -3541,7 +3541,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad25 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3574,7 +3574,7 @@
 .gruppe25 .fireman2 .gruppe11 .gruppe7 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3603,7 +3603,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe7 .pfad26 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3634,7 +3634,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe7 .rechteck58 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3678,7 +3678,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe7 .pfad27 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3709,7 +3709,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe7 .pfad28 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3742,7 +3742,7 @@
 .gruppe25 .fireman2 .gruppe11 .gruppe8 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3771,7 +3771,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe8 .pfad29 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3802,7 +3802,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe8 .rechteck59 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -3846,7 +3846,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe8 .pfad30 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3877,7 +3877,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe8 .pfad31 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3908,7 +3908,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck60 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3952,7 +3952,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck61 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -3996,7 +3996,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad32 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4027,7 +4027,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .ellipse10 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-22.50deg);
   -webkit-transform: rotate(-22.50deg);
@@ -4058,7 +4058,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .ellipse11 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -4089,7 +4089,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .ellipse12 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -4120,7 +4120,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck62 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4164,7 +4164,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .ellipse13 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -4195,7 +4195,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad33 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4226,7 +4226,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck63 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4270,7 +4270,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck64 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4314,7 +4314,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad34 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4345,7 +4345,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad35 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4376,7 +4376,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck65 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4420,7 +4420,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck66 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4464,7 +4464,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck67 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4508,7 +4508,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck68 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4552,7 +4552,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad36 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4583,7 +4583,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad37 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4614,7 +4614,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck69 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(145.67deg);
   -webkit-transform: rotate(145.67deg);
@@ -4658,7 +4658,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck70 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(145.67deg);
   -webkit-transform: rotate(145.67deg);
@@ -4702,7 +4702,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck71 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(145.67deg);
   -webkit-transform: rotate(145.67deg);
@@ -4746,7 +4746,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck72 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4790,7 +4790,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck73 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4834,7 +4834,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad38 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4865,7 +4865,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad39 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4896,7 +4896,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad40 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4927,7 +4927,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad41 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -4958,7 +4958,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck74 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5002,7 +5002,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck75 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5046,7 +5046,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck76 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5090,7 +5090,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck77 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5134,7 +5134,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck78 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -5178,7 +5178,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad42 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5209,7 +5209,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .ellipse14 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5242,7 +5242,7 @@
 .gruppe25 .fireman2 .gruppe11 .gruppe10 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5271,7 +5271,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe10 .pfad43 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5302,7 +5302,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe10 .pfad44 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5333,7 +5333,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe10 .pfad45 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5366,7 +5366,7 @@
 .gruppe25 .fireman2 .gruppe11 .gruppe10 .gruppe9 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5395,7 +5395,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe10 .gruppe9 .pfad46 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5426,7 +5426,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .gruppe10 .gruppe9 .pfad47 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5457,7 +5457,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck79 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5501,7 +5501,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck80 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5545,7 +5545,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck81 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5589,7 +5589,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck82 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5633,7 +5633,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck83 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5677,7 +5677,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck84 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5721,7 +5721,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck85 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5765,7 +5765,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .ellipse15 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5796,7 +5796,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad48 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5827,7 +5827,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck86 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5871,7 +5871,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck87 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5915,7 +5915,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck88 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -5959,7 +5959,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck89 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6003,7 +6003,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad49 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6034,7 +6034,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .ellipse16 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -6065,7 +6065,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad50 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6096,7 +6096,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck90 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-16.55deg);
   -webkit-transform: rotate(-16.55deg);
@@ -6140,7 +6140,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck91 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-16.55deg);
   -webkit-transform: rotate(-16.55deg);
@@ -6184,7 +6184,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck92 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-16.55deg);
   -webkit-transform: rotate(-16.55deg);
@@ -6228,7 +6228,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .pfad51 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6259,7 +6259,7 @@
 }
 
 .gruppe25 .fireman2 .gruppe11 .rechteck93 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -6305,7 +6305,7 @@
 .gruppe25 .fireman3 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6336,7 +6336,7 @@
 .gruppe25 .fireman3 .gruppe18 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6367,7 +6367,7 @@
 .gruppe25 .fireman3 .gruppe18 .gruppe12 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6396,7 +6396,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe12 .pfad52 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6427,7 +6427,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe12 .rechteck94 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6471,7 +6471,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe12 .pfad53 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6502,7 +6502,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe12 .pfad54 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6535,7 +6535,7 @@
 .gruppe25 .fireman3 .gruppe18 .gruppe13 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6564,7 +6564,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe13 .pfad55 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6595,7 +6595,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe13 .rechteck95 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -6639,7 +6639,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe13 .pfad56 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6670,7 +6670,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe13 .pfad57 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6701,7 +6701,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad58 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6732,7 +6732,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad59 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6763,7 +6763,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck96 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6807,7 +6807,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad60 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -6838,7 +6838,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck97 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -6882,7 +6882,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck98 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -6926,7 +6926,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck99 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -6970,7 +6970,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck100 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7014,7 +7014,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck101 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7058,7 +7058,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck102 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7102,7 +7102,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck103 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -7146,7 +7146,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad61 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7177,7 +7177,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck104 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -7221,7 +7221,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck105 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -7265,7 +7265,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck106 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -7309,7 +7309,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck107 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7353,7 +7353,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad62 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7384,7 +7384,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck108 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7428,7 +7428,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck109 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -7472,7 +7472,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad63 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7503,7 +7503,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad64 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7534,7 +7534,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck110 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7578,7 +7578,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad65 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7609,7 +7609,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck111 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7653,7 +7653,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck112 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7697,7 +7697,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck113 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7741,7 +7741,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck114 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -7785,7 +7785,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck115 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -7829,7 +7829,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck116 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -7873,7 +7873,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck117 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7917,7 +7917,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck118 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7963,7 +7963,7 @@
 .gruppe25 .fireman3 .gruppe18 .gruppe14 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -7992,7 +7992,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe14 .pfad66 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8023,7 +8023,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe14 .pfad67 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8054,7 +8054,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck119 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8098,7 +8098,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad68 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8129,7 +8129,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck120 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8173,7 +8173,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck121 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8217,7 +8217,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad69 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8248,7 +8248,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck122 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8292,7 +8292,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck123 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8336,7 +8336,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck124 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8380,7 +8380,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck125 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8424,7 +8424,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck126 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8468,7 +8468,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck127 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8512,7 +8512,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck128 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8556,7 +8556,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck129 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8600,7 +8600,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck130 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -8646,7 +8646,7 @@
 .gruppe25 .fireman3 .gruppe18 .gruppe15 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8675,7 +8675,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe15 .rechteck131 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8719,7 +8719,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe15 .pfad70 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8750,7 +8750,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe15 .ellipse17 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8781,7 +8781,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe15 .ellipse18 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8812,7 +8812,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe15 .pfad71 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8843,7 +8843,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad72 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8874,7 +8874,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .ellipse19 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-22.50deg);
   -webkit-transform: rotate(-22.50deg);
@@ -8905,7 +8905,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .ellipse20 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8938,7 +8938,7 @@
 .gruppe25 .fireman3 .gruppe18 .gruppe16 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8967,7 +8967,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe16 .pfad73 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -8998,7 +8998,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe16 .pfad74 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9029,7 +9029,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe16 .pfad75 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9060,7 +9060,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck132 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9104,7 +9104,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck133 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9150,7 +9150,7 @@
 .gruppe25 .fireman3 .gruppe18 .gruppe17 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9179,7 +9179,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe17 .rechteck134 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9223,7 +9223,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe17 .rechteck135 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9267,7 +9267,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe17 .ellipse21 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9298,7 +9298,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .gruppe17 .ellipse22 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9329,7 +9329,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .ellipse23 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -9360,7 +9360,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad76 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9391,7 +9391,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .ellipse24 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-45.00deg);
   -webkit-transform: rotate(-45.00deg);
@@ -9422,7 +9422,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .pfad77 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9453,7 +9453,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck136 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9497,7 +9497,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck137 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9541,7 +9541,7 @@
 }
 
 .gruppe25 .fireman3 .gruppe18 .rechteck138 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9587,7 +9587,7 @@
 .gruppe25 .fireman4 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9618,7 +9618,7 @@
 .gruppe25 .fireman4 .gruppe24 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9649,7 +9649,7 @@
 .gruppe25 .fireman4 .gruppe24 .gruppe19 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9678,7 +9678,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe19 .pfad78 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9709,7 +9709,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe19 .rechteck139 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -9753,7 +9753,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe19 .pfad79 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9784,7 +9784,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe19 .pfad80 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9817,7 +9817,7 @@
 .gruppe25 .fireman4 .gruppe24 .gruppe20 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9846,7 +9846,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe20 .pfad81 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9877,7 +9877,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe20 .rechteck140 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9921,7 +9921,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe20 .pfad82 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9952,7 +9952,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe20 .pfad83 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -9983,7 +9983,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck141 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10027,7 +10027,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck142 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10071,7 +10071,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck143 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10115,7 +10115,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck144 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10159,7 +10159,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad84 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10190,7 +10190,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck145 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -10234,7 +10234,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck146 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -10278,7 +10278,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck147 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(11.39deg);
   -webkit-transform: rotate(11.39deg);
@@ -10322,7 +10322,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck148 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10366,7 +10366,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck149 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10410,7 +10410,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad85 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10441,7 +10441,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck150 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -10485,7 +10485,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad86 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10516,7 +10516,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck151 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -10560,7 +10560,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck152 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -10604,7 +10604,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck153 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(168.61deg);
   -webkit-transform: rotate(168.61deg);
@@ -10648,7 +10648,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad87 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10679,7 +10679,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad88 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10710,7 +10710,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck154 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10754,7 +10754,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck155 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10798,7 +10798,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck156 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10842,7 +10842,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck157 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10886,7 +10886,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck158 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10930,7 +10930,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck159 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -10974,7 +10974,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck160 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11018,7 +11018,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck161 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -11062,7 +11062,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck162 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11106,7 +11106,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck163 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11150,7 +11150,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck164 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11194,7 +11194,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck165 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11238,7 +11238,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad89 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11269,7 +11269,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck166 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11313,7 +11313,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck167 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11357,7 +11357,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck168 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11401,7 +11401,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck169 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11445,7 +11445,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck170 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11489,7 +11489,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck171 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11533,7 +11533,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck172 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11577,7 +11577,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck173 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -11623,7 +11623,7 @@
 .gruppe25 .fireman4 .gruppe24 .gruppe21 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11652,7 +11652,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe21 .pfad90 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11683,7 +11683,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe21 .pfad91 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11714,7 +11714,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe21 .ellipse25 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11745,7 +11745,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe21 .ellipse26 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11776,7 +11776,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe21 .pfad92 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11807,7 +11807,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad93 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11838,7 +11838,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad94 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11869,7 +11869,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .ellipse27 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-76.72deg);
   -webkit-transform: rotate(-76.72deg);
@@ -11900,7 +11900,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck174 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11944,7 +11944,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck175 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -11988,7 +11988,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad95 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12019,7 +12019,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck176 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
@@ -12063,7 +12063,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck177 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12107,7 +12107,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck178 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12151,7 +12151,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck179 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12195,7 +12195,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck180 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12239,7 +12239,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .rechteck181 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12285,7 +12285,7 @@
 .gruppe25 .fireman4 .gruppe24 .gruppe22 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12314,7 +12314,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe22 .rechteck182 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12358,7 +12358,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe22 .rechteck183 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12402,7 +12402,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe22 .ellipse28 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12433,7 +12433,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe22 .ellipse29 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12464,7 +12464,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .ellipse30 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12495,7 +12495,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad96 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12526,7 +12526,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad97 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12557,7 +12557,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .ellipse31 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12588,7 +12588,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .pfad98 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12621,7 +12621,7 @@
 .gruppe25 .fireman4 .gruppe24 .gruppe23 {
 
   display: block;
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12650,7 +12650,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe23 .ellipse32 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12681,7 +12681,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe23 .ellipse33 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(-22.50deg);
   -webkit-transform: rotate(-22.50deg);
@@ -12712,7 +12712,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe23 .pfad99 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12743,7 +12743,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe23 .pfad100 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -12774,7 +12774,7 @@
 }
 
 .gruppe25 .fireman4 .gruppe24 .gruppe23 .rechteck184 {
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);

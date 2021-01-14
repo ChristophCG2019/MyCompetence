@@ -1,5 +1,5 @@
 footer {
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -41,7 +41,7 @@ footer {
   bottom: 0px;
 }
 .impressum a{
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -79,7 +79,7 @@ footer {
 }
 
 .privacyPolice a{
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -117,7 +117,6 @@ footer {
 }
 
 .navDiv{
-  position: absolute;
   box-sizing: border-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -159,7 +158,7 @@ footer {
   top: 0.00px;
 }
 .logo{
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -206,7 +205,7 @@ footer {
 }
 
 .myCompetence{
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -246,7 +245,7 @@ footer {
 }
 
 .flag{
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -285,7 +284,7 @@ footer {
 }
 
 .logInText{
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -328,7 +327,7 @@ footer {
 }
 
 .inputLoginUserNameText{
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -422,7 +421,7 @@ footer {
 }
 
 .buttonIconOpenAccountLogin{
-  position: absolute;
+  position: fixed;
   box-sizing: border-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
@@ -473,7 +472,7 @@ footer {
 
 .showUserName{
 
-  position: absolute;
+  position: fixed;
   box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
